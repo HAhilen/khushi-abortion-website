@@ -7,10 +7,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Validate email
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Invalid email format";
-        exit;
-    }
+    // if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    //     echo "Invalid email format";
+    //     exit;
+    // }
 
     // Email details
     $to = "adhikari.hilen@gmail.com"; // Replace with your email address
