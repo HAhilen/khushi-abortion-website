@@ -186,3 +186,13 @@ function validateForm() {
 //   }
 //   return true;
 // }
+
+///video play
+document.querySelector(".play-btn").addEventListener("click", function (event) {
+  event.preventDefault();
+  const video = document.getElementById("myVideo");
+  if (video.paused) {
+    video.play();
+    this.style.display = "none"; // Hide the play button when the video starts playing
+  }
+});

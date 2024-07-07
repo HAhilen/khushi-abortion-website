@@ -108,13 +108,23 @@ p {
 #header .logo a {
   color: #2c4964;
 }
+.logo a {
+  font-family: "Arial", sans-serif; /* Change this to a font that supports Nepali characters */
+  text-decoration: none;
+  color: #000; /* Change this to your desired color */
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.logo a:hover {
+  color: #007bff; /* Change this to your desired hover color */
+}
 
 #header .logo img {
   max-height: 40px;
 }
 
 /**
-* Appointment Button *
+* itment Button *
 */
 .appointment-btn {
   margin-left: 25px;
@@ -329,12 +339,12 @@ section {
 # Home Section
 --------------------------------------------------------------*/
 #home {
-  margin-top: 90px;
+  margin-top: 70px;
   width: 100%;
   height: 100vh;
-  background: url("../img/home.jpg") top center;
+  background: url("../img/background-image.png") top center;
   background-size: cover;
-  margin-bottom: -200px;
+  margin-bottom: -100px;
 }
 
 #home .container {
@@ -551,75 +561,44 @@ section {
   font-size: 14px;
 }
 
-.about .video-box {
-  background: url("../img/about.jpg") center center no-repeat;
+@media (max-width: 768px) {
+  .about .video-box {
+    min-height: 300px; /* Adjust height for smaller devices */
+  }
+}
+
+@media (max-width: 480px) {
+  .about .video-box {
+    min-height: 200px; /* Further adjust height for very small devices */
+  }
+}
+.video-box {
+  background: url("../img/jj.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-.about .play-btn {
-  width: 94px;
-  height: 94px;
-  background: radial-gradient(#1977cc 50%, rgba(25, 119, 204, 0.4) 52%);
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  left: calc(50% - 47px);
-  top: calc(50% - 47px);
-  overflow: hidden;
+.video-box video {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.about .play-btn::after {
-  content: "";
+.play-btn {
   position: absolute;
-  left: 50%;
   top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 100;
-  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-.about .play-btn::before {
-  content: "";
-  position: absolute;
-  width: 120px;
-  height: 120px;
-  opacity: 1;
-  border-radius: 50%;
-  border: 5px solid rgba(25, 119, 204, 0.7);
-  top: -15%;
-  left: -15%;
-  background: rgba(198, 16, 0, 0);
-}
-
-.about .play-btn:hover::after {
-  border-left: 15px solid #25d366;
-  transform: scale(20);
-}
-
-.about .play-btn:hover::before {
-  content: "";
-  position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translateX(-40%) translateY(-50%);
-  width: 0;
-  height: 0;
-  border: none;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 15px solid #fff;
-  z-index: 200;
-  -webkit-animation: none;
-  animation: none;
-  border-radius: 0;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: url("../img/play-icon.png") center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  z-index: 2;
 }
-
 @-webkit-keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
