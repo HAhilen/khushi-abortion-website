@@ -129,7 +129,7 @@ p {
 }
 
 .appointment-btn:hover {
-  background: #3fbbc0;
+  background: #25d366;
   color: #fff;
 }
 
@@ -433,7 +433,7 @@ section {
 }
 
 .featured-services .icon-box:hover::before {
-  background: #3fbbc0;
+  background: #25d366;
   top: 0;
   border-radius: 0px;
 }
@@ -521,7 +521,7 @@ section {
 }
 
 .about .icon-box:hover .icon {
-  background: #3fbbc0;
+  background: #25d366;
   border-color: #3fbbc0;
 }
 
@@ -542,7 +542,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1977cc;
+  color: #25d366;
 }
 
 .about .icon-box .description {
@@ -598,7 +598,7 @@ section {
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #1977cc;
+  border-left: 15px solid #25d366;
   transform: scale(20);
 }
 
@@ -689,7 +689,7 @@ section {
 }
 
 .counts .count-box a:hover {
-  color: #3fbbc0;
+  color: #25d366;
 }
 
 /*--------------------------------------------------------------
@@ -751,7 +751,7 @@ section {
 }
 
 .services .icon-box:hover {
-  background: #3fbbc0;
+  background: #25d366;
   border-color: #3fbbc0;
 }
 
@@ -817,7 +817,7 @@ section {
 }
 
 .appointment .php-email-form button[type="submit"]:hover {
-  background: #3fbbc0;
+  background: #25d366;
 }
 
 /*--------------------------------------------------------------
@@ -908,7 +908,7 @@ section {
 }
 
 .doctors .member .social a:hover {
-  background: #3fbbc0;
+  background: #25d366;
 }
 
 .doctors .member .social a + a {
@@ -960,7 +960,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #3fbbc0;
+  background: #25d366;
   color: #fff;
 }
 
@@ -998,7 +998,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #3fbbc0;
+  background: #25d366;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1069,7 +1069,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #65c9cd;
+  background: #25d366;
   text-decoration: none;
 }
 
@@ -1115,7 +1115,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #3fbbc0;
+  color: #25d366;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1149,7 +1149,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #65c9cd;
+  background: #25d366;
 }
 
 #footer .copyright {
@@ -1187,7 +1187,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: #298ce5;
+  background: #25d366;
   color: #fff;
 }
 
@@ -1249,7 +1249,7 @@ section {
 
 .image-item img {
   width: 100%;
-  height: 380px;
+  height: 350px;
   display: block;
   border-radius: 8px;
   transition: transform 0.3s;
