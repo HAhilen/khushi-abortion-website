@@ -437,11 +437,6 @@ section {
   top: 0;
   border-radius: 0px;
 }
-
-.featured-services .icon {
-  margin-bottom: 15px;
-}
-
 .featured-services .icon i {
   font-size: 48px;
   line-height: 1;
@@ -473,6 +468,21 @@ section {
 .featured-services .icon-box:hover .icon i {
   color: #fff;
 }
+.featured-services .icon-box {
+  padding: 15px; /* Reduced from 30px */
+}
+.featured-services .icon i {
+  font-size: 36px; /* Reduced from 48px */
+}
+.featured-services .title {
+  font-size: 16px; /* Reduced from 18px */
+}
+
+.featured-services .description {
+  font-size: 14px; /* Reduced from 15px */
+  line-height: 24px; /* Reduced from 28px */
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -1239,7 +1249,7 @@ section {
 
 .image-item img {
   width: 100%;
-  height: auto;
+  height: 380px;
   display: block;
   border-radius: 8px;
   transition: transform 0.3s;
